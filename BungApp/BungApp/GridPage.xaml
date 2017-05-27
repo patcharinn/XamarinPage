@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="BungApp.GridPage">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="*" />
+			<ColumnDefinition
+				Width="*" />
+			<ColumnDefinition
+				Width="*" />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="*" />
+			<RowDefinition
+				Height="*" />
+			<RowDefinition
+				Height="*" />
+		</Grid.RowDefinitions>
+		<Button
+			Text="Button1"
+			BackgroundColor="Gray"
+			Grid.Column="0"
+			Grid.Row="0"
+			Grid.ColumnSpan="2" />
+		<Button
+			Text="Button1"
+			BackgroundColor="Green"
+			Grid.Column="0"
+			Grid.Row="0"
+			Grid.ColumnSpan="2" />
+		<Button
+			Text="Button1"
+			BackgroundColor="Olive"
+			Grid.Column="0"
+			Grid.Row="0"
+			Grid.ColumnSpan="2" />
+	</Grid>
+</ContentPage>
